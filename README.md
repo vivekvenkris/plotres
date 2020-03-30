@@ -11,6 +11,6 @@ X11
 ```
 Compilation is straightforward
 ```
-gfortran -o ~/bin/plotres plotres.f -lcpgplot -lpgplot -lX11 -lm -lgfortran
-gfortran -o ~/bin/plotres_ps plotres_ps.f -lcpgplot -lpgplot -lX11 -lm -lgfortran
+gfortran -o ~/bin/plotres plotres.f -lcpgplot -lpgplot -lX11 -lm
+gfortran -o ~/bin/plotres_ps plotres_ps.f -lcpgplot -lpgplot -lX11 -lm 
 ```
