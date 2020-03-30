@@ -17,5 +17,5 @@ gfortran -o ~/bin/plotres_ps plotres_ps.f -lcpgplot -lpgplot -lX11 -lm
 
 # Usage:
 
-1. Run tempo with your `.tim` and `.par` files which will create a `resid2.tmp` file
+1. Run `tempo` with your `.tim` and `.par` files which will create a `resid2.tmp` file
 2. run `./plotres` in the same directory with no other arguments. 
